@@ -1,0 +1,74 @@
+
+/* Cart.scss */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem; /* Espacio entre elementos */
+}
+
+.cart-total {
+  margin-left: auto; /* Mover al lado derecho */
+}
+/* Cart.scss */
+.product-image {
+  width: 300px; /* Tamaño deseado para las imágenes */
+  height: 190px; /* Tamaño deseado para las imágenes */
+  border-radius: 5px; /* Radio de borde mínimo */
+}
+
+.ItemCard{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-top: 5px;
+    font-family:'Trebuchet MS';
+    }
+
+.ItemContent {
+    display: gap;
+    font-size: 12px;
+    width: 20rem;
+}
+
+.Card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 300px;
+    height: auto;
+    font-size: 15px;
+}
+
+.Card-image{
+    width: 100%;
+    height: 260px;    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    margin-bottom: 10px; /* Agregar margen inferior */
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background-color: #c81c1c;
+  }
+  
